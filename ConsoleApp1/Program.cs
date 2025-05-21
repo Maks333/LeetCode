@@ -19,8 +19,6 @@
                     unique++;
                     nums[unique] = nums[i];
                 }
-
-
             }
             return unique + 1;
         }
