@@ -1,4 +1,6 @@
-﻿namespace Validate_Binary_Search_Tree
+﻿using System.ComponentModel.Design;
+
+namespace Validate_Binary_Search_Tree
 {
     internal class Program
     {
@@ -22,19 +24,29 @@
 
         public class Solution
         {
-            //int lv = root.left == null ? root.left.val : null;
-            //int rv = root.right == null ? root.val : root.right.val;
+            TreeNode? prev = null;
             public bool IsValidBST(TreeNode root)
             {
                 if (root == null) return true;
 
-                if (root.left == null && root.right == null) return true;
-                else if (root.left == null) return root.val < root.right.val;
-                else if (root.right == null) return root.val > root.left.val;
+                bool l = IsValidBST(root.left);
 
-                if (root.val <= root.left.val || root.val >= root.right.val) return false;
+                if (prev == null)
+                {
+                    prev = new TreeNode(root.val);
+                }
+                else if (prev.val >= root.val)
+                {
+                    return false;
+                }
+                else
+                {
+                    prev.val = root.val;
+                }
 
-                return IsValidBST(root.left) && IsValidBST(root.right);
+                bool r = IsValidBST(root.right);
+
+                return l && r;
             }
         }
     }

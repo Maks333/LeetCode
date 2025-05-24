@@ -53,6 +53,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Linked List", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Two Sorted Lists", "..\Merge Two Sorted Lists\Merge Two Sorted Lists.csproj", "{33E63789-BC92-4A73-A245-186974BD8E06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Depth of Binary Tree", "..\Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{F919FB87-1F34-4C47-AAAC-26EE98961136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate Binary Search Tree", "..\Validate Binary Search Tree\Validate Binary Search Tree.csproj", "{23B4F75E-6E62-47D7-BD72-09DCE9343079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert Sorted Array to Binary Search Tree", "..\Convert Sorted Array to Binary Search Tree\Convert Sorted Array to Binary Search Tree.csproj", "{E33AF074-1080-41D9-9402-22FF4B765A22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +165,18 @@ Global
 		{33E63789-BC92-4A73-A245-186974BD8E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E63789-BC92-4A73-A245-186974BD8E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E63789-BC92-4A73-A245-186974BD8E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F919FB87-1F34-4C47-AAAC-26EE98961136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F919FB87-1F34-4C47-AAAC-26EE98961136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F919FB87-1F34-4C47-AAAC-26EE98961136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F919FB87-1F34-4C47-AAAC-26EE98961136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B4F75E-6E62-47D7-BD72-09DCE9343079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B4F75E-6E62-47D7-BD72-09DCE9343079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B4F75E-6E62-47D7-BD72-09DCE9343079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B4F75E-6E62-47D7-BD72-09DCE9343079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33AF074-1080-41D9-9402-22FF4B765A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33AF074-1080-41D9-9402-22FF4B765A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33AF074-1080-41D9-9402-22FF4B765A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33AF074-1080-41D9-9402-22FF4B765A22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
